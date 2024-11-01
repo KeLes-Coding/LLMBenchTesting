@@ -1,6 +1,6 @@
 import json
 import sys
-from LLMBenchingV3 import LLMPlanExecutor
+from LLMBenchingV3_OpenAI import LLMPlanExecutor
 import copy
 
 # 初始化消息列表
@@ -29,7 +29,8 @@ messages = [
         }
       }
     },
-}""",
+}
+your operating space is: Tap, Text, Swipe, Back, Home.""",
     },
     {
         "role": "user",
