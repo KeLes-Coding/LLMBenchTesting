@@ -41,7 +41,7 @@ def start_terminal(program_path, message):
 
 
 def main():
-    program_path = "executor_script.py"
+    program_path = "executor_script_APP.py"
 
     for message in result_message:
         start_terminal(program_path, message)
